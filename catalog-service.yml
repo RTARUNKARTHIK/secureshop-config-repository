@@ -12,5 +12,5 @@ spring:
       maximum-pool-size: 10
 
 app:
-  service-name: catalog service
-  message:payment catalog loaded from GitHub
+  service-name: Catalog service
+  message:payment Catalog loaded from GitHub
