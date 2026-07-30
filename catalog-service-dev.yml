@@ -1,12 +1,10 @@
 spring:
   datasource:
-    url: ${CATALOG_DB_URL}
-    username: ${CATALOG_DB_USERNAME}
-    password: ${CATALOG_DB_PASSWORD}
+    url: jdbc:postgresql://localhost:5432/catalog_dev_db
 
 logging:
   level:
-    root: WARN
+    com.secureshop.catalog: DEBUG
 
 app:
-  environment: production
+  environment: development
